@@ -1,0 +1,29 @@
+@mixin uppercasetext {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.banner header nav a {
+    @include uppercasetext;
+}
+
+.banner div h1 {
+    @include uppercasetext;
+}
+
+.banner div button {
+    @include uppercasetext;
+}
+
+.features h4 {
+    @include uppercasetext;
+}
+
+.download section h5 {
+    @include uppercasetext;
+}
+
+.footer section div h5:first-of-type {
+    @include uppercasetext;
+}

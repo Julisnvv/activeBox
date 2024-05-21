@@ -1,0 +1,85 @@
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 110px;
+}
+
+.download section {
+  width: 1170px;
+  height: 220px;
+  display: block;
+}
+
+.download section h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.download section h5 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.download section button {
+  width: 370px;
+  height: 80px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .download {
+    margin-bottom: 80px;
+  }
+  .download section {
+    width: 980px;
+    height: 200px;
+  }
+  .download section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .download section h5 {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .download section button {
+    width: 310px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .download {
+    margin-bottom: 50px;
+  }
+  .download section {
+    width: 280px;
+    margin: 0 20px;
+  }
+  .download section h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .download section h5 {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .download section button {
+    width: 280px;
+  }
+}/*# sourceMappingURL=download.css.map */

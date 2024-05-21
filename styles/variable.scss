@@ -1,0 +1,36 @@
+$maincolbut: #FF4343;
+$secondarycolbut: #E71414;
+
+.banner div button {
+    background-color: $maincolbut;
+}
+
+.banner div button:hover {
+    background-color: $secondarycolbut;
+}
+
+.banner div button:active {
+    background-color: $maincolbut;
+    box-shadow: 4px 4px 30px 0px $maincolbut;
+}
+
+.download section button {
+    background-color: $maincolbut;
+}
+
+.download section button:hover {
+    background-color: $secondarycolbut;
+}
+
+.download section button:active {
+    background-color: $maincolbut;
+    box-shadow: 4px 4px 30px 0px $maincolbut;
+}
+
+.banner header nav a:active {
+    color: $secondarycolbut;
+}
+
+.ourteam section article h5:last-of-type {
+    color: $maincolbut;
+}

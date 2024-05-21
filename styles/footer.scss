@@ -1,0 +1,125 @@
+.footer {
+    display: block;
+}
+
+.footer section:first-of-type {
+    height: 250px;
+    background: #353C65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer section div {
+    width: 370px;
+    height: 110px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer section div h5:first-of-type {
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFF;
+    margin-bottom: 30px;
+}
+
+.footer section div h5:nth-of-type(2) {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFF;
+}
+
+.footer section div:nth-of-type(2) div img {
+    margin: 20px;
+}
+
+.footer section div .capitalize {
+    text-transform: capitalize;
+}
+
+.footer section:last-of-type {
+    height: 90px;
+    background: #2C3154;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer section p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #808080;
+    text-align: center;
+}
+
+.copyright {
+    color: #FFF;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer section:first-of-type {
+        height: 170px;
+    }
+
+    .footer section div {
+        width: 310px;
+        height: 80px;
+    }
+
+    .footer section div h5:first-of-type {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .footer section div h5:nth-of-type(2) {
+        font-size: 14px;
+    }
+
+    .footer section div:nth-of-type(2) div img {
+        margin: 10px;
+    }
+
+    .footer section:last-of-type {
+        height: 60px;
+    }
+
+    .footer section p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer section:first-of-type {
+        display: block;
+        height: 450px;
+        padding-top: 30px;
+    }
+
+    .footer section div {
+        width: 280px;
+        height: 90px;
+        margin: 0 10px 60px;
+    }
+
+    .footer section div h5:first-of-type {
+        margin-bottom: 30px;
+    }
+
+    .footer section:last-of-type {
+        height: 90px;
+    }
+
+    .footer section div:nth-of-type(2) div {
+        margin: 0 auto;
+    }
+
+    .footer section div:first-of-type {
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,120 @@
+.work {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 90px;
+}
+
+.work_subcontainer {
+  width: 1510px;
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+  grid-template-rows: repeat(2, 310px);
+  grid-gap: 0.5px;
+}
+
+.work figure {
+  position: relative;
+}
+
+.work_subcontainer__item1 {
+  width: 350px;
+  height: 310px;
+  background: url("../img/work_1.png");
+}
+
+.work_subcontainer__item2 {
+  width: 350px;
+  height: 310px;
+  background: url("../img/work_2.png");
+}
+
+.work_subcontainer__item3 {
+  width: 350px;
+  height: 310px;
+  background: url("../img/work_3.png");
+}
+
+.work_subcontainer__item4 {
+  width: 350px;
+  height: 310px;
+  background: url("../img/work_4.png");
+}
+
+.work_subcontainer__item5 {
+  width: 350px;
+  height: 310px;
+  background: url("../img/work_5.png");
+}
+
+.work_subcontainer__item6 {
+  width: 350px;
+  height: 310px;
+  background: url("../img/work_6.png");
+}
+
+.work_subcontainer__item7 {
+  width: 350px;
+  height: 310px;
+  background: url("../img/work_7.png");
+}
+
+.work_subcontainer__item8 {
+  width: 350px;
+  height: 310px;
+  background: url("../img/work_8.png");
+}
+
+.work_subcontainer__item1:hover,
+.work_subcontainer__item2:hover,
+.work_subcontainer__item3:hover,
+.work_subcontainer__item4:hover,
+.work_subcontainer__item5:hover,
+.work_subcontainer__item6:hover,
+.work_subcontainer__item7:hover,
+.work_subcontainer__item8:hover {
+  width: 350px;
+  height: 310px;
+  background: url("../img/work_hover.png");
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .work {
+    margin-bottom: 70px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .work {
+    width: 320px;
+    height: 560px;
+    margin-bottom: 40px;
+  }
+  .work_subcontainer {
+    width: 320px;
+    grid-template-columns: repeat(2, 160px);
+    grid-template-rows: repeat(4, 140px);
+  }
+  .work_subcontainer__item1,
+  .work_subcontainer__item2,
+  .work_subcontainer__item3,
+  .work_subcontainer__item4,
+  .work_subcontainer__item5,
+  .work_subcontainer__item6,
+  .work_subcontainer__item7,
+  .work_subcontainer__item8 {
+    width: 160px;
+    height: 140px;
+  }
+  .work_subcontainer__item1:hover,
+  .work_subcontainer__item2:hover,
+  .work_subcontainer__item3:hover,
+  .work_subcontainer__item4:hover,
+  .work_subcontainer__item5:hover,
+  .work_subcontainer__item6:hover,
+  .work_subcontainer__item7:hover,
+  .work_subcontainer__item8:hover {
+    width: 160px;
+    height: 140px;
+  }
+}/*# sourceMappingURL=work.css.map */

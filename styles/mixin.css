@@ -1,0 +1,35 @@
+.banner header nav a {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner div h1 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner div button {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.features h4 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.download section h5 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer section div h5:first-of-type {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}/*# sourceMappingURL=mixin.css.map */

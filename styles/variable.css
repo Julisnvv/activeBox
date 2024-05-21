@@ -1,0 +1,33 @@
+.banner div button {
+  background-color: #FF4343;
+}
+
+.banner div button:hover {
+  background-color: #E71414;
+}
+
+.banner div button:active {
+  background-color: #FF4343;
+  box-shadow: 4px 4px 30px 0px #FF4343;
+}
+
+.download section button {
+  background-color: #FF4343;
+}
+
+.download section button:hover {
+  background-color: #E71414;
+}
+
+.download section button:active {
+  background-color: #FF4343;
+  box-shadow: 4px 4px 30px 0px #FF4343;
+}
+
+.banner header nav a:active {
+  color: #E71414;
+}
+
+.ourteam section article h5:last-of-type {
+  color: #FF4343;
+}/*# sourceMappingURL=variable.css.map */

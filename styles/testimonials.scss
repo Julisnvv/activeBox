@@ -1,0 +1,110 @@
+.testimonials {
+    height: 540px;
+    display: block;
+    margin-bottom: 110px;
+}
+
+.testimonials section {
+    display: flex;
+    background: #5C3249;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.testimonials section h2 {
+    font-family: 'Cardo', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #FFF;
+    margin-bottom: 30px;
+}
+
+.testimonials section h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.testimonials section div {
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.testimonials p {
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .testimonials {
+        height: 360px;
+        margin-bottom: 80px;
+    }
+
+    .testimonials section {
+        margin-bottom: 25px;
+    }
+
+    .testimonials section h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .testimonials section h6 {
+        font-size: 12px;
+    }
+
+    .testimonials section img:first-of-type {
+        width: 500px;
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .testimonials {
+        height: 570px;
+        margin-bottom: 50px;
+    }
+
+    .testimonials section {
+        display: block;
+        justify-content: center;
+        margin-bottom: 20px;
+        height: 540px;
+        width: 320px;
+    }
+
+    .testimonials section div {
+        text-align: center;
+    }
+
+    .testimonials section h2 {
+        margin: 0 0 30px 5px;
+        text-align: center;
+        font-size: 23px;
+        width: 290px;
+        height: 150px;
+    }
+
+    .testimonials section h6 {
+        text-align: center;
+        margin: 0 5px;
+        width: 290px;
+        height: 25px;
+    }
+
+    .testimonials section img:first-of-type {
+        width: 320px;
+        height: 210px;
+        margin-bottom: 30px;
+    }
+
+    .testimonials p img {
+        width: 130px;
+        height: 10px;
+    }
+}
